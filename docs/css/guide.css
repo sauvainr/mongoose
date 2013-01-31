@@ -32,8 +32,6 @@ a {
 a:hover {
   opacity: 0.8;
 }
-#wrap {
-}
 h1 {
   font-family: 'Helvetica Nueue', Helvetica, Arial, FreeSans, sans-serif;
   text-rendering: geometricPrecision;
@@ -111,7 +109,6 @@ li {
   width: 210px;
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
   padding: 15px 0 30px 20px;
   border-right: 1px solid #ddd;
   background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(0.92, transparent), color-stop(0.9201, rgba(172,172,172, 0.0)), to(rgba(172,172,172, 0.4))), transparent;
@@ -218,6 +215,14 @@ li {
 }
 li.guide ul {
   padding-left: 16px;
+}
+
+.important {
+  background-color: #FBFF94;
+  margin-left: 5px;
+}
+.important p {
+  padding: 22px;
 }
 
 ul.inthewild {
